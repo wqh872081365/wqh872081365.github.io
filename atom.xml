@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>王奇慧的随笔</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wqihui.com/"/>
+  <updated>2017-04-24T15:48:45.000Z</updated>
+  <id>http://wqihui.com/</id>
+  
+  <author>
+    <name>王奇慧</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://wqihui.com/2017/04/24/hello-world/"/>
+    <id>http://wqihui.com/2017/04/24/hello-world/</id>
+    <published>2017-04-24T15:48:45.000Z</published>
+    <updated>2017-04-24T15:48:45.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Hexo</title>
+    <link href="http://wqihui.com/2017/04/24/Hello-Hexo/"/>
+    <id>http://wqihui.com/2017/04/24/Hello-Hexo/</id>
+    <published>2017-04-24T08:47:48.000Z</published>
+    <updated>2017-08-05T17:23:20.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="test" scheme="http://wqihui.com/categories/test/"/>
+    
+    
+      <category term="start" scheme="http://wqihui.com/tags/start/"/>
+    
+  </entry>
+  
+</feed>
