@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wqihui.com/"/>
-  <updated>2017-04-24T15:48:45.000Z</updated>
+  <updated>2018-03-16T00:30:37.327Z</updated>
   <id>http://wqihui.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cs229_note_1</title>
+    <link href="http://wqihui.com/2018/03/15/cs229-note-1/"/>
+    <id>http://wqihui.com/2018/03/15/cs229-note-1/</id>
+    <published>2018-03-15T00:18:13.000Z</published>
+    <updated>2018-03-16T00:30:37.327Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;证明: &lt;span class=&quot;math display&quot;&gt;\[\nabla_AtrABA^TC = CAB + C^TAB^T\]&lt;/span&gt; &lt;span class=&quot;math display&quot;&gt;\[(A_{m*n}, B_{n*n}, C_{m*m})\]&lt;/sp
+    
+    </summary>
+    
+      <category term="ml" scheme="http://wqihui.com/categories/ml/"/>
+    
+    
+      <category term="ml" scheme="http://wqihui.com/tags/ml/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -39,6 +59,9 @@
     <updated>2017-08-05T17:23:20.000Z</updated>
     
     <summary type="html">
+    
+      
+
     
     </summary>
     

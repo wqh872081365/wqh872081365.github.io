@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[cs229_note_1]]></title>
+    <url>%2F2018%2F03%2F15%2Fcs229-note-1%2F</url>
+    <content type="text"><![CDATA[证明: \[\nabla_AtrABA^TC = CAB + C^TAB^T\] \[(A_{m*n}, B_{n*n}, C_{m*m})\] \[\because trABA^TC\] \[ = \sum_{i=1}^m(ABA^TC)_{ii} \] \[ = \sum_{i=1}^m\sum_{j=1}^n(AB)_{ij}(A^TC)_{ji} \] \[ = \sum_{i=1}^m\sum_{j=1}^n(\sum_{k=1}^nA_{ik}B_{kj})(\sum_{l=1}^mA^T_{jl}C_{li}) \] \[ = \sum_{i=1}^m\sum_{j=1}^n\sum_{k=1}^n\sum_{l=1}^mA_{ik}B_{kj}A^T_{jl}C_{li} \] \[ = \sum_{i=1}^m\sum_{j=1}^n\sum_{k=1}^n\sum_{l=1}^mA_{ik}A_{lj}B_{kj}C_{li}\] \[\therefore (\nabla_AtrABA^TC)_{pq} \] \[= \frac{\partial trABA^TC}{\partial A_{pq}} \] \[= \frac{\partial}{\partial A_{pq}}\sum_{i=1}^m\sum_{j=1}^n\sum_{k=1}^n\sum_{l=1}^mA_{ik}A_{lj}B_{kj}C_{li} \] \[= \sum_{j=1}^n\sum_{l=1}^mA_{lj}B_{qj}C_{lp} + \sum_{i=1}^m\sum_{k=1}^nA_{ik}B_{kq}C_{pi} \] \[= \sum_{j=1}^n\sum_{l=1}^mC^T_{pl}A_{lj}B^T_{jq} + \sum_{i=1}^m\sum_{k=1}^nC_{pi}A_{ik}B_{kq} \] \[=\sum_{j=1}^n(C^TA)_{pj}B^T_{jq} + \sum_{i=1}^mC_{pi}(AB)_{iq}\] \[=(C^TAB^T)_{pq} + (CAB)_{pq}\] \[\therefore \nabla_AtrABA^TC = CAB + C^TAB^T\]]]></content>
+      <categories>
+        <category>ml</category>
+      </categories>
+      <tags>
+        <tag>ml</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2017%2F04%2F24%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick Start Create a new post 1$ hexo new "My New Post" More info: Writing Run server 1$ hexo server More info: Server Generate static files 1$ hexo generate More info: Generating Deploy to remote sites 1$ hexo deploy More info: Deployment]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hello Hexo]]></title>
     <url>%2F2017%2F04%2F24%2FHello-Hexo%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[]]></content>
       <categories>
         <category>test</category>
       </categories>
