@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[cs229_note_2]]></title>
+    <url>%2F2018%2F04%2F11%2Fcs229-note-2%2F</url>
+    <content type="text"><![CDATA[\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\] \[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\] \[根据泰勒公式高维展开: l(\theta + \Delta\theta) \] \[= l(\theta) + (\nabla_\theta l(\theta))^T\Delta\theta + \frac{1}{2!}\Delta\theta^TH\Delta\theta + \cdots\] \[\therefore \nabla_\theta l(\theta+\Delta\theta) \] \[= \nabla_\theta l(\theta) + H\Delta\theta + o((\Delta\theta)^2)\] \[根据牛顿法 \nabla_\theta l(\theta+\Delta\theta) = 0\] \[\therefore \theta = \theta - H^{-1}\nabla_\theta l(\theta)\]]]></content>
+      <categories>
+        <category>ml</category>
+      </categories>
+      <tags>
+        <tag>ml</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[cs229_note_1]]></title>
     <url>%2F2018%2F03%2F15%2Fcs229-note-1%2F</url>
     <content type="text"><![CDATA[证明: \[\nabla_AtrABA^TC = CAB + C^TAB^T\] \[(A_{m*n}, B_{n*n}, C_{m*m})\] \[\because trABA^TC\] \[ = \sum_{i=1}^m(ABA^TC)_{ii} \] \[ = \sum_{i=1}^m\sum_{j=1}^n(AB)_{ij}(A^TC)_{ji} \] \[ = \sum_{i=1}^m\sum_{j=1}^n(\sum_{k=1}^nA_{ik}B_{kj})(\sum_{l=1}^mA^T_{jl}C_{li}) \] \[ = \sum_{i=1}^m\sum_{j=1}^n\sum_{k=1}^n\sum_{l=1}^mA_{ik}B_{kj}A^T_{jl}C_{li} \] \[ = \sum_{i=1}^m\sum_{j=1}^n\sum_{k=1}^n\sum_{l=1}^mA_{ik}A_{lj}B_{kj}C_{li}\] \[\therefore (\nabla_AtrABA^TC)_{pq} \] \[= \frac{\partial trABA^TC}{\partial A_{pq}} \] \[= \frac{\partial}{\partial A_{pq}}\sum_{i=1}^m\sum_{j=1}^n\sum_{k=1}^n\sum_{l=1}^mA_{ik}A_{lj}B_{kj}C_{li} \] \[= \sum_{j=1}^n\sum_{l=1}^mA_{lj}B_{qj}C_{lp} + \sum_{i=1}^m\sum_{k=1}^nA_{ik}B_{kq}C_{pi} \] \[= \sum_{j=1}^n\sum_{l=1}^mC^T_{pl}A_{lj}B^T_{jq} + \sum_{i=1}^m\sum_{k=1}^nC_{pi}A_{ik}B_{kq} \] \[=\sum_{j=1}^n(C^TA)_{pj}B^T_{jq} + \sum_{i=1}^mC_{pi}(AB)_{iq}\] \[=(C^TAB^T)_{pq} + (CAB)_{pq}\] \[\therefore \nabla_AtrABA^TC = CAB + C^TAB^T\]]]></content>

@@ -72,7 +72,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="ml," />
 
 
 
@@ -90,13 +90,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://wqihui.com/tags/index.html">
+<meta name="description" content="\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\] \[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\] \[根据泰勒公式高维展开:  l(\theta + \Del">
+<meta name="keywords" content="ml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="cs229_note_2">
+<meta property="og:url" content="http://wqihui.com/2018/04/11/cs229-note-2/index.html">
 <meta property="og:site_name" content="王奇慧的随笔">
-<meta property="og:updated_time" content="2017-08-05T12:20:04.000Z">
+<meta property="og:description" content="\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\] \[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\] \[根据泰勒公式高维展开:  l(\theta + \Del">
+<meta property="og:updated_time" content="2018-04-11T00:37:12.302Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="cs229_note_2">
+<meta name="twitter:description" content="\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\] \[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\] \[根据泰勒公式高维展开:  l(\theta + \Del">
 
 
 
@@ -124,19 +128,13 @@
 
 
 
-  <link rel="canonical" href="http://wqihui.com/tags/"/>
+  <link rel="canonical" href="http://wqihui.com/2018/04/11/cs229-note-2/"/>
 
 
 
 
 
-  <title>
-  
-
-  
-    tags | 王奇慧的随笔
-  
-</title>
+  <title> cs229_note_2 | 王奇慧的随笔 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -170,7 +168,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -307,25 +305,174 @@
             
 
   <div id="posts" class="posts-expand">
-  <header class="post-header">
+    
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
+  
 
+  
+  
+  
 
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://wqihui.com/2018/04/11/cs229-note-2/">
 
-</header>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王奇慧">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/mob.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="王奇慧的随笔">
+    </span>
 
     
-    
-      <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            目前共计 2 个标签
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                cs229_note_2
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-11T08:33:00+08:00">
+                2018-04-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ml/" itemprop="url" rel="index">
+                    <span itemprop="name">ml</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
         </div>
-        <div class="tag-cloud-tags">
-          <a href="/tags/ml/" style="font-size: 30px; color: #111">ml</a> <a href="/tags/start/" style="font-size: 12px; color: #ccc">start</a>
-        </div>
-      </div>
+      </header>
     
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><span class="math display">\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\]</span> <span class="math display">\[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\]</span></p>
+<p><span class="math display">\[根据泰勒公式高维展开:  l(\theta + \Delta\theta) \]</span> <span class="math display">\[= l(\theta) + (\nabla_\theta l(\theta))^T\Delta\theta + \frac{1}{2!}\Delta\theta^TH\Delta\theta + \cdots\]</span></p>
+<p><span class="math display">\[\therefore \nabla_\theta l(\theta+\Delta\theta) \]</span> <span class="math display">\[= \nabla_\theta l(\theta) + H\Delta\theta + o((\Delta\theta)^2)\]</span></p>
+<p><span class="math display">\[根据牛顿法 \nabla_\theta l(\theta+\Delta\theta) = 0\]</span></p>
+<p><span class="math display">\[\therefore \theta = \theta - H^{-1}\nabla_\theta l(\theta)\]</span></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ml/" rel="tag"><i class="fa fa-tag"></i> ml</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/03/15/cs229-note-1/" rel="prev" title="cs229_note_1">
+                cs229_note_1 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
           
@@ -544,6 +691,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 

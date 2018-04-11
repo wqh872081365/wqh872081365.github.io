@@ -314,6 +314,150 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://wqihui.com/2018/04/11/cs229-note-2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王奇慧">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/mob.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="王奇慧的随笔">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2018/04/11/cs229-note-2/" itemprop="url">
+                  cs229_note_2
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-11T08:33:00+08:00">
+                2018-04-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ml/" itemprop="url" rel="index">
+                    <span itemprop="name">ml</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><span class="math display">\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\]</span> <span class="math display">\[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\]</span></p>
+<p><span class="math display">\[根据泰勒公式高维展开:  l(\theta + \Delta\theta) \]</span> <span class="math display">\[= l(\theta) + (\nabla_\theta l(\theta))^T\Delta\theta + \frac{1}{2!}\Delta\theta^TH\Delta\theta + \cdots\]</span></p>
+<p><span class="math display">\[\therefore \nabla_\theta l(\theta+\Delta\theta) \]</span> <span class="math display">\[= \nabla_\theta l(\theta) + H\Delta\theta + o((\Delta\theta)^2)\]</span></p>
+<p><span class="math display">\[根据牛顿法 \nabla_\theta l(\theta+\Delta\theta) = 0\]</span></p>
+<p><span class="math display">\[\therefore \theta = \theta - H^{-1}\nabla_\theta l(\theta)\]</span></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://wqihui.com/2018/03/15/cs229-note-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -764,7 +908,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
