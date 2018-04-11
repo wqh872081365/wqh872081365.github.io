@@ -97,7 +97,7 @@
 <meta property="og:url" content="http://wqihui.com/2018/04/11/cs229-note-2/index.html">
 <meta property="og:site_name" content="王奇慧的随笔">
 <meta property="og:description" content="\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\] \[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\] \[根据泰勒公式高维展开:  l(\theta + \Del">
-<meta property="og:updated_time" content="2018-04-11T00:37:12.302Z">
+<meta property="og:updated_time" content="2018-04-11T00:39:19.322Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="cs229_note_2">
 <meta name="twitter:description" content="\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\] \[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\] \[根据泰勒公式高维展开:  l(\theta + \Del">
@@ -411,7 +411,7 @@
         <p><span class="math display">\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\]</span> <span class="math display">\[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\]</span></p>
 <p><span class="math display">\[根据泰勒公式高维展开:  l(\theta + \Delta\theta) \]</span> <span class="math display">\[= l(\theta) + (\nabla_\theta l(\theta))^T\Delta\theta + \frac{1}{2!}\Delta\theta^TH\Delta\theta + \cdots\]</span></p>
 <p><span class="math display">\[\therefore \nabla_\theta l(\theta+\Delta\theta) \]</span> <span class="math display">\[= \nabla_\theta l(\theta) + H\Delta\theta + o((\Delta\theta)^2)\]</span></p>
-<p><span class="math display">\[根据牛顿法 \nabla_\theta l(\theta+\Delta\theta) = 0\]</span></p>
+<p><span class="math display">\[根据牛顿法:   \nabla_\theta l(\theta+\Delta\theta) = 0\]</span></p>
 <p><span class="math display">\[\therefore \theta = \theta - H^{-1}\nabla_\theta l(\theta)\]</span></p>
 
       
