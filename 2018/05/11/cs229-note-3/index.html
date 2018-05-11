@@ -72,7 +72,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="ml," />
 
 
 
@@ -90,15 +90,17 @@
 
 
 
-<meta name="description" content="make more time">
-<meta property="og:type" content="website">
-<meta property="og:title" content="王奇慧的随笔">
-<meta property="og:url" content="http://wqihui.com/index.html">
+<meta name="description" content="\[求解高斯判别分析模型GDA中协方差矩阵\sum:\sum= \frac{1}{m}\sum_{i=1}^{m}{(x^{(i)}-\mu_{y^{(i)}})(x^{(i)}-\mu_{y^{(i)}})^T}\] \[(m数据行数, y\sim Bernoulli(\phi), x|y=0\sim N(\mu_0,\sum),  x|y=1\sim N(\mu_1,\sum))\] \[1)">
+<meta name="keywords" content="ml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="cs229_note_3">
+<meta property="og:url" content="http://wqihui.com/2018/05/11/cs229-note-3/index.html">
 <meta property="og:site_name" content="王奇慧的随笔">
-<meta property="og:description" content="make more time">
+<meta property="og:description" content="\[求解高斯判别分析模型GDA中协方差矩阵\sum:\sum= \frac{1}{m}\sum_{i=1}^{m}{(x^{(i)}-\mu_{y^{(i)}})(x^{(i)}-\mu_{y^{(i)}})^T}\] \[(m数据行数, y\sim Bernoulli(\phi), x|y=0\sim N(\mu_0,\sum),  x|y=1\sim N(\mu_1,\sum))\] \[1)">
+<meta property="og:updated_time" content="2018-05-11T15:01:42.587Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="王奇慧的随笔">
-<meta name="twitter:description" content="make more time">
+<meta name="twitter:title" content="cs229_note_3">
+<meta name="twitter:description" content="\[求解高斯判别分析模型GDA中协方差矩阵\sum:\sum= \frac{1}{m}\sum_{i=1}^{m}{(x^{(i)}-\mu_{y^{(i)}})(x^{(i)}-\mu_{y^{(i)}})^T}\] \[(m数据行数, y\sim Bernoulli(\phi), x|y=0\sim N(\mu_0,\sum),  x|y=1\sim N(\mu_1,\sum))\] \[1)">
 
 
 
@@ -126,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="http://wqihui.com/"/>
+  <link rel="canonical" href="http://wqihui.com/2018/05/11/cs229-note-3/"/>
 
 
 
 
 
-  <title> 王奇慧的随笔 </title>
+  <title> cs229_note_3 | 王奇慧的随笔 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -166,9 +168,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -303,9 +303,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -335,10 +335,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2018/05/11/cs229-note-3/" itemprop="url">
-                  cs229_note_3
-                </a>
+                cs229_note_3
               
             
           </h1>
@@ -411,9 +408,7 @@
       
 
       
-        
-          
-            <p><span class="math display">\[求解高斯判别分析模型GDA中协方差矩阵\sum:\sum= \frac{1}{m}\sum_{i=1}^{m}{(x^{(i)}-\mu_{y^{(i)}})(x^{(i)}-\mu_{y^{(i)}})^T}\]</span></p>
+        <p><span class="math display">\[求解高斯判别分析模型GDA中协方差矩阵\sum:\sum= \frac{1}{m}\sum_{i=1}^{m}{(x^{(i)}-\mu_{y^{(i)}})(x^{(i)}-\mu_{y^{(i)}})^T}\]</span></p>
 <p><span class="math display">\[(m数据行数, y\sim Bernoulli(\phi), x|y=0\sim N(\mu_0,\sum),  x|y=1\sim N(\mu_1,\sum))\]</span></p>
 <p><span class="math display">\[1) 先证明\frac{\partial a^TX^{-1}b}{\partial X} = -X^{-T}ab^TX^{-T}\]</span></p>
 <p><span class="math display">\[\because XX^{-1} = E\]</span></p>
@@ -432,597 +427,66 @@
 <p><span class="math display">\[\because \frac{\partial l(\phi, \mu_0, \mu_1, \sum)}{\partial \sum} = 0\]</span></p>
 <p><span class="math display">\[\therefore \sum = \frac{1}{m}\sum_{i=1}^m{((x^{(i)}-\mu_{y^{(i)}})(x^{(i)}-\mu_{y^{(i)}})^T)}\]</span></p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://wqihui.com/2018/04/11/cs229-note-2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王奇慧">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/mob.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="王奇慧的随笔">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2018/04/11/cs229-note-2/" itemprop="url">
-                  cs229_note_2
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-11T08:33:00+08:00">
-                2018-04-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/ml/" itemprop="url" rel="index">
-                    <span itemprop="name">ml</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/ml/" rel="tag"><i class="fa fa-tag"></i> ml</a>
           
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
         
-          
-            <p><span class="math display">\[证明 牛顿法在高维下的极值问题:\theta = \theta - H^{-1}\nabla_\theta l(\theta)\]</span> <span class="math display">\[(H_{ij} = \frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}, H_{n*n}, \theta 向量, l 函数)\]</span></p>
-<p><span class="math display">\[根据泰勒公式高维展开:  l(\theta + \Delta\theta) \]</span> <span class="math display">\[= l(\theta) + (\nabla_\theta l(\theta))^T\Delta\theta + \frac{1}{2!}\Delta\theta^TH\Delta\theta + \cdots\]</span></p>
-<p><span class="math display">\[\therefore \nabla_\theta l(\theta+\Delta\theta) \]</span> <span class="math display">\[= \nabla_\theta l(\theta) + H\Delta\theta + o((\Delta\theta)^2)\]</span></p>
-<p><span class="math display">\[根据牛顿法:   \nabla_\theta l(\theta+\Delta\theta) = 0\]</span></p>
-<p><span class="math display">\[\therefore \theta = \theta - H^{-1}\nabla_\theta l(\theta)\]</span></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://wqihui.com/2018/03/15/cs229-note-1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王奇慧">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/mob.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="王奇慧的随笔">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-              
-                
-                <a class="post-title-link" href="/2018/03/15/cs229-note-1/" itemprop="url">
-                  cs229_note_1
-                </a>
-              
+              <a href="/2018/04/11/cs229-note-2/" rel="prev" title="cs229_note_2">
+                cs229_note_2 <i class="fa fa-chevron-right"></i>
+              </a>
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-15T08:18:13+08:00">
-                2018-03-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/ml/" itemprop="url" rel="index">
-                    <span itemprop="name">ml</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>证明: <span class="math display">\[\nabla_AtrABA^TC = CAB + C^TAB^T\]</span> <span class="math display">\[(A_{m*n}, B_{n*n}, C_{m*m})\]</span></p>
-<p><span class="math display">\[\because trABA^TC\]</span> <span class="math display">\[ = \sum_{i=1}^m(ABA^TC)_{ii} \]</span> <span class="math display">\[ = \sum_{i=1}^m\sum_{j=1}^n(AB)_{ij}(A^TC)_{ji} \]</span> <span class="math display">\[ = \sum_{i=1}^m\sum_{j=1}^n(\sum_{k=1}^nA_{ik}B_{kj})(\sum_{l=1}^mA^T_{jl}C_{li}) \]</span> <span class="math display">\[ = \sum_{i=1}^m\sum_{j=1}^n\sum_{k=1}^n\sum_{l=1}^mA_{ik}B_{kj}A^T_{jl}C_{li} \]</span> <span class="math display">\[ = \sum_{i=1}^m\sum_{j=1}^n\sum_{k=1}^n\sum_{l=1}^mA_{ik}A_{lj}B_{kj}C_{li}\]</span></p>
-<p><span class="math display">\[\therefore (\nabla_AtrABA^TC)_{pq} \]</span> <span class="math display">\[= \frac{\partial trABA^TC}{\partial A_{pq}} \]</span> <span class="math display">\[= \frac{\partial}{\partial A_{pq}}\sum_{i=1}^m\sum_{j=1}^n\sum_{k=1}^n\sum_{l=1}^mA_{ik}A_{lj}B_{kj}C_{li} \]</span> <span class="math display">\[= \sum_{j=1}^n\sum_{l=1}^mA_{lj}B_{qj}C_{lp} + \sum_{i=1}^m\sum_{k=1}^nA_{ik}B_{kq}C_{pi} \]</span> <span class="math display">\[=  \sum_{j=1}^n\sum_{l=1}^mC^T_{pl}A_{lj}B^T_{jq} + \sum_{i=1}^m\sum_{k=1}^nC_{pi}A_{ik}B_{kq} \]</span> <span class="math display">\[=\sum_{j=1}^n(C^TA)_{pj}B^T_{jq} + \sum_{i=1}^mC_{pi}(AB)_{iq}\]</span> <span class="math display">\[=(C^TAB^T)_{pq} + (CAB)_{pq}\]</span></p>
-<p><span class="math display">\[\therefore \nabla_AtrABA^TC = CAB + C^TAB^T\]</span></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://wqihui.com/2017/04/24/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王奇慧">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/mob.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="王奇慧的随笔">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/04/24/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-24T23:48:45+08:00">
-                2017-04-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://wqihui.com/2017/04/24/Hello-Hexo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="王奇慧">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/mob.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="王奇慧的随笔">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/04/24/Hello-Hexo/" itemprop="url">
-                  Hello Hexo
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-24T16:47:48+08:00">
-                2017-04-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/test/" itemprop="url" rel="index">
-                    <span itemprop="name">test</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
           
           </div>
@@ -1030,6 +494,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -1236,6 +704,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
