@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://wqihui.com/"/>
+  <link href="https://wqihui.com/"/>
   <updated>2018-05-11T15:01:42.587Z</updated>
-  <id>http://wqihui.com/</id>
+  <id>https://wqihui.com/</id>
   
   <author>
     <name>王奇慧</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>cs229_note_3</title>
-    <link href="http://wqihui.com/2018/05/11/cs229-note-3/"/>
-    <id>http://wqihui.com/2018/05/11/cs229-note-3/</id>
+    <link href="https://wqihui.com/2018/05/11/cs229-note-3/"/>
+    <id>https://wqihui.com/2018/05/11/cs229-note-3/</id>
     <published>2018-05-11T15:01:00.000Z</published>
     <updated>2018-05-11T15:01:42.587Z</updated>
     
@@ -28,17 +28,17 @@
     
     </summary>
     
-      <category term="ml" scheme="http://wqihui.com/categories/ml/"/>
+      <category term="ml" scheme="https://wqihui.com/categories/ml/"/>
     
     
-      <category term="ml" scheme="http://wqihui.com/tags/ml/"/>
+      <category term="ml" scheme="https://wqihui.com/tags/ml/"/>
     
   </entry>
   
   <entry>
     <title>cs229_note_2</title>
-    <link href="http://wqihui.com/2018/04/11/cs229-note-2/"/>
-    <id>http://wqihui.com/2018/04/11/cs229-note-2/</id>
+    <link href="https://wqihui.com/2018/04/11/cs229-note-2/"/>
+    <id>https://wqihui.com/2018/04/11/cs229-note-2/</id>
     <published>2018-04-11T00:33:00.000Z</published>
     <updated>2018-04-11T00:39:19.322Z</updated>
     
@@ -48,17 +48,17 @@
     
     </summary>
     
-      <category term="ml" scheme="http://wqihui.com/categories/ml/"/>
+      <category term="ml" scheme="https://wqihui.com/categories/ml/"/>
     
     
-      <category term="ml" scheme="http://wqihui.com/tags/ml/"/>
+      <category term="ml" scheme="https://wqihui.com/tags/ml/"/>
     
   </entry>
   
   <entry>
     <title>cs229_note_1</title>
-    <link href="http://wqihui.com/2018/03/15/cs229-note-1/"/>
-    <id>http://wqihui.com/2018/03/15/cs229-note-1/</id>
+    <link href="https://wqihui.com/2018/03/15/cs229-note-1/"/>
+    <id>https://wqihui.com/2018/03/15/cs229-note-1/</id>
     <published>2018-03-15T00:18:13.000Z</published>
     <updated>2018-03-16T00:30:37.327Z</updated>
     
@@ -68,17 +68,17 @@
     
     </summary>
     
-      <category term="ml" scheme="http://wqihui.com/categories/ml/"/>
+      <category term="ml" scheme="https://wqihui.com/categories/ml/"/>
     
     
-      <category term="ml" scheme="http://wqihui.com/tags/ml/"/>
+      <category term="ml" scheme="https://wqihui.com/tags/ml/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://wqihui.com/2017/04/24/hello-world/"/>
-    <id>http://wqihui.com/2017/04/24/hello-world/</id>
+    <link href="https://wqihui.com/2017/04/24/hello-world/"/>
+    <id>https://wqihui.com/2017/04/24/hello-world/</id>
     <published>2017-04-24T15:48:45.000Z</published>
     <updated>2017-04-24T15:48:45.000Z</updated>
     
@@ -93,8 +93,8 @@
   
   <entry>
     <title>Hello Hexo</title>
-    <link href="http://wqihui.com/2017/04/24/Hello-Hexo/"/>
-    <id>http://wqihui.com/2017/04/24/Hello-Hexo/</id>
+    <link href="https://wqihui.com/2017/04/24/Hello-Hexo/"/>
+    <id>https://wqihui.com/2017/04/24/Hello-Hexo/</id>
     <published>2017-04-24T08:47:48.000Z</published>
     <updated>2017-08-05T17:23:20.000Z</updated>
     
@@ -105,10 +105,10 @@
     
     </summary>
     
-      <category term="test" scheme="http://wqihui.com/categories/test/"/>
+      <category term="test" scheme="https://wqihui.com/categories/test/"/>
     
     
-      <category term="start" scheme="http://wqihui.com/tags/start/"/>
+      <category term="start" scheme="https://wqihui.com/tags/start/"/>
     
   </entry>
   
